@@ -1,0 +1,37 @@
+/* Overlay */
+.top {
+  position: fixed;
+  z-index: 5;
+  top: 50px;
+  left: 50px;
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .top .logo img {
+    height: 60px;
+    width: 150px; }
+  .top .burger {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative; }
+    .top .burger svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+
+.bottom {
+  z-index: 5;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  transform: all .3s ease;
+  transform: rotate(0);
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(-90deg) translate(0, 100%);
+  transform-origin: bottom left; }
