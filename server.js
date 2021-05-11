@@ -1,7 +1,8 @@
 const express = require('express')
+const serverless = require('serverless-http');
 const app = express()
 
-const listened = 3500;
+// const listened = 3500;
 
 app.use(express.static('public'));
 
@@ -61,6 +62,8 @@ app.get('/Error', (req, res) => {
 //     res.redirect('/Error')
 // })
 
-app.listen(listened, () => {
-    console.log(`Server loaded on port ${listened}`)
-})
+// app.listen(listened, () => {
+//     console.log(`Server loaded on port ${listened}`)
+// })
+
+module.exports.handler = serverless(app);
