@@ -125,6 +125,10 @@ h2.title {
         height: calc(1140px / 4 * 3);
     }
 
+    &.imgs {
+        height: calc(1140px / 8);
+    }
+
     img {
         position: absolute;
         top: 50%;
@@ -416,3 +420,12 @@ h2.title {
         background: none !important;
     }
 }
+
+/* ajout */
+.div-text {
+    margin-bottom: 25px !important;
+}
+
+// .div-title {
+//     margin-bottom: 25px !important;
+// }

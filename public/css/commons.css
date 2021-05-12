@@ -94,6 +94,8 @@ h2.title {
     height: calc(1140px / 2); }
   .imgCrop.imgxl {
     height: calc(1140px / 4 * 3); }
+  .imgCrop.imgs {
+    height: calc(1140px / 8); }
   .imgCrop img {
     position: absolute;
     top: 50%;
@@ -291,3 +293,7 @@ h2.title {
     opacity: 1 !important;
     color: black !important;
     background: none !important; } }
+
+/* ajout */
+.div-text {
+  margin-bottom: 25px !important; }
