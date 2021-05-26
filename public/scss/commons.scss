@@ -154,6 +154,10 @@ h2.title {
     margin-bottom: 100px;
 }
 
+.landing .col-12 {
+    margin-bottom: 0 !important;
+}
+
 .yepCard {
     position: relative;
     
@@ -426,6 +430,11 @@ h2.title {
     margin-bottom: 25px !important;
 }
 
-// .div-title {
-//     margin-bottom: 25px !important;
-// }
+.title-h1 {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.main-title {
+    text-align: left !important;
+}

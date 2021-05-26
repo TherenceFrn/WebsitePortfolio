@@ -272,6 +272,9 @@ h2.title {
 .container .row .col-12 {
   margin-bottom: 100px; }
 
+.landing .col-12 {
+  margin-bottom: 0 !important; }
+
 .yepCard {
   position: relative; }
   .yepCard .points {
@@ -453,3 +456,10 @@ h2.title {
 /* ajout */
 .div-text {
   margin-bottom: 25px !important; }
+
+.title-h1 {
+  width: 100% !important;
+  text-align: center !important; }
+
+.main-title {
+  text-align: left !important; }

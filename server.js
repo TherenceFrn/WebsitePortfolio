@@ -45,6 +45,20 @@ app.get('/AnimeQuiz', (req, res) => {
     })
 })
 
+app.get('/Facilitravaux', (req, res) => {
+    pageData.title = 'Facilitravaux'
+    res.render('facilitravaux.ejs', {
+        pageData
+    })
+})
+
+app.get('/Pogames', (req, res) => {
+    pageData.title = 'Pogames'
+    res.render('pogames.ejs', {
+        pageData
+    })
+})
+
 /* Portfolio */
 app.get('/Portfolio', (req, res) => {
     pageData.title = 'Portfolio'
