@@ -1,0 +1,342 @@
+/* Grid*/
+.grid {
+  z-index: -1;
+  position: fixed;
+  width: 100vw;
+  height: 100vh; }
+  .grid .lines {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+    .grid .lines .line {
+      width: 2px;
+      height: 100vh;
+      background-color: #DBDBDB; }
+
+/* Landing */
+.landing {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px; }
+  .landing h1.title {
+    font-size: 6em;
+    font-weight: normal;
+    font-family: 'PMingLiU-ExtB';
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 100px; }
+    .landing h1.title .text-wrapper {
+      position: relative;
+      display: inline-block;
+      overflow: hidden; }
+      .landing h1.title .text-wrapper .letter {
+        transform-origin: 0 100%;
+        display: inline-block; }
+  .landing h2.title {
+    font-size: 6em;
+    font-weight: normal;
+    font-family: 'PMingLiU-ExtB';
+    text-align: left;
+    text-decoration: none; }
+
+.pageLanding {
+  height: 100vh;
+  position: relative;
+  margin-bottom: 0 !important; }
+  .pageLanding h1.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; }
+  .pageLanding .vitrine {
+    height: 75vh;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden; }
+    .pageLanding .vitrine img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: cover; }
+
+/* Text */
+h2.title {
+  font-size: 70px;
+  font-weight: normal;
+  font-family: 'PMingLiU-ExtB';
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 100px;
+  margin-top: 50px; }
+
+.paragraph {
+  padding: 10px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 30px; }
+
+/* Image */
+.imgCrop {
+  height: calc(1140px / 4);
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .imgCrop.imglg {
+    height: calc(1140px / 2); }
+  .imgCrop.imgxl {
+    height: calc(1140px / 4 * 3); }
+  .imgCrop.imgs {
+    height: calc(1140px / 8); }
+  .imgCrop img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover; }
+
+.caption {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'PMingLiU-ExtB';
+  text-align: right;
+  text-decoration: none; }
+
+/* Content */
+.container .row .col-12 {
+  margin-bottom: 100px; }
+
+.landing .col-12 {
+  margin-bottom: 0 !important; }
+
+.yepCard {
+  position: relative; }
+  .yepCard .points {
+    margin: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translate(0, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+    .yepCard .points .point {
+      color: white;
+      background-color: #D3C3F7;
+      border-radius: 50%;
+      margin-right: 10px;
+      padding: 10px; }
+
+.content .container .row .experience-title {
+  margin-bottom: 50px; }
+  .content .container .row .experience-title h3.title {
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'PMingLiU-ExtB';
+    text-decoration: none; }
+  .content .container .row .experience-title span.sub-title {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: #B7B7B7; }
+
+.content .container .row .div-card-empty {
+  padding: 0;
+  margin: 0; }
+
+/* Projets */
+.projet-card {
+  margin-bottom: 25px; }
+  .projet-card .wrapper {
+    padding: 0 10px; }
+  .projet-card .type {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-top: 15px; }
+  .projet-card h2.title {
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'PMingLiU-ExtB';
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 0; }
+  .projet-card .infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .projet-card .infos .year {
+      color: #DBDBDB;
+      font-size: 20px;
+      font-weight: normal;
+      font-family: 'Montserrat';
+      text-align: left;
+      text-decoration: none; }
+    .projet-card .infos .more,
+    .projet-card .infos .more a {
+      color: #D3C3F7;
+      font-size: 20px;
+      font-weight: normal;
+      font-family: 'Montserrat';
+      text-align: left;
+      text-decoration: none; }
+
+/* projet img */
+/* Portfolio */
+.portfolio-card {
+  margin-bottom: 25px; }
+  .portfolio-card .wrapper {
+    padding: 0 10px; }
+  .portfolio-card .type {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-top: 15px; }
+  .portfolio-card h2.title {
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'PMingLiU-ExtB';
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 0; }
+  .portfolio-card .infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .portfolio-card .infos .year {
+      color: #DBDBDB;
+      font-size: 20px;
+      font-weight: normal;
+      font-family: 'Montserrat';
+      text-align: left;
+      text-decoration: none; }
+    .portfolio-card .infos .more,
+    .portfolio-card .infos .more a {
+      color: #D3C3F7;
+      font-size: 20px;
+      font-weight: normal;
+      font-family: 'Montserrat';
+      text-align: left;
+      text-decoration: none; }
+
+/* Misc */
+.blocs {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%); }
+  .blocs .line {
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .blocs .line:last-child {
+      margin-bottom: 0; }
+    .blocs .line .bloc {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #DBDBDB;
+      margin-left: 5px; }
+      .blocs .line .bloc:first-child {
+        margin-left: 0; }
+
+/* Portfolio */
+.portfolio-img {
+  position: relative;
+  align-items: flex-end; }
+  .portfolio-img .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.533333) 30%, rgba(255, 255, 255, 0) 100%);
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: all .3s ease;
+    opacity: 0; }
+  .portfolio-img:hover .details {
+    opacity: 1; }
+
+@media screen and (max-width: 768px) {
+  .details {
+    position: relative !important;
+    align-items: flex-start !important;
+    opacity: 1 !important;
+    color: black !important;
+    background: none !important; } }
+
+/* ajout */
+.div-text {
+  margin-bottom: 25px !important; }
+
+.title-h1 {
+  width: 100% !important;
+  text-align: center !important; }
+
+.main-title {
+  text-align: left !important; }
+
+@media (max-width: 768px) {
+  .landing h1.title,
+  .landing h2 {
+    font-size: 4rem !important; }
+  h2.title {
+    font-size: 3rem !important;
+    text-align: center; }
+  .item {
+    margin-bottom: 5px; }
+  .item .text {
+    font-size: 2rem; }
+  .menunav .row > .col-12.col-md-6 {
+    margin-bottom: 0; }
+  .menunav .coords .social {
+    justify-content: space-around; }
+  .menunav {
+    text-align: center; }
+  .div-title {
+    padding: 0 10px; }
+  .imgCrop.imgxl {
+    height: calc(1140px / 4); }
+  .imgCrop.imglg {
+    height: calc(1140px / 3); }
+  .projet-card,
+  .portfolio-card {
+    margin-bottom: 100px; }
+  .projet-card h2.title,
+  .portfolio-card h2.title {
+    font-size: 2rem !important; }
+  .projet-card .type,
+  .portfolio-card .type {
+    font-size: 1.2rem !important; } }

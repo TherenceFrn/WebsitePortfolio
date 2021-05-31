@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /css/
+Disallow: /node_modules/
+Disallow: /scss/
+Disallow: /script/
+
+Allow: /
+
+Sitemap: http://therenceferron.fr/sitemap.xml

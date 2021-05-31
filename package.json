@@ -7,7 +7,7 @@
     "start": "nodemon server.js",
     "build": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass public/scss --watch -o public/css"
+    "scss": "node-sass scss --watch -o css"
   },
   "author": "therence",
   "license": "ISC",
@@ -15,9 +15,7 @@
     "css.gg": "^2.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "netlify-lambda": "^2.0.6",
     "node-sass": "^5.0.0",
-    "nodemon": "^2.0.7",
-    "serverless-http": "^2.7.0"
+    "nodemon": "^2.0.7"
   }
 }

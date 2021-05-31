@@ -1,0 +1,7 @@
+#Site portfolio therenceferron.fr
+#Réalisé par Thérence Ferron
+#Etudiant concepteur développeur web à Angers à MyDigitalSchool
+#Créé en 2021
+#Site map: https://therenceferron.fr/sitemap.xml
+#Robots.txt: https://therenceferron.fr/robots.txt
+#Pour me contacter: https://therenceferron.fr/contact
